@@ -1,0 +1,54 @@
+ body {
+    height: 100%;
+    margin: 0;   
+     background: linear-gradient(to right, #ffc107, #ff9800);
+  }
+ 
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  header h1 {
+    color: white;
+  }
+  
+  main .circle {
+    background: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  main .circle p {
+    font-size: 24px;
+  }
+  .login-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px #d32f2f;
+  }
+  
+  .login-button:hover {
+    background-color: #e53935;
+  }
+  
+  .login-button:active {
+    box-shadow: 0 2px #b71c1c;
+    transform: translateY(2px);
+  }
+  

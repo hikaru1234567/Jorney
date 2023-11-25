@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Home {
+    font-family: Arial, sans-serif;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  .nav-items {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .Home-nav .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .Home-nav .nav-items li {
+    list-style: none;
+    color: #333;
+    padding: 0 15px;
+  }
+  
+  .Home-nav .nav-items a:hover {
+    color: #007bff;
+  }
+  
+  .Home-content {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+.content {
+  width: 100%;
+  display: flex;
+  
+}
+
+  .main-text{
+
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0px;
+    margin:35px 0;
+  }
+
+  .image1, .image2, .image3 {
+    background-image:url("../img/concept.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 50vw; 
+    max-height: 300px; 
+    object-fit: cover;
+    margin: 40px;
+    border-radius: 25px;
+  }
+
+  .text {
+    width: 50%;
+    margin-top: 50px;
+    
+  }
+  
+ 
+
+  .text p {
+    font-size: 1em;
+
+
+  }
+
+  
