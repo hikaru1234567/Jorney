@@ -1,7 +1,7 @@
  body {
     height: 100%;
     margin: 0;   
-     background: linear-gradient(to right, #ffc107, #ff9800);
+    background: linear-gradient(to right, #ffc107, #ff9800);
   }
  
  .container {

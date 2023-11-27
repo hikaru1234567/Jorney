@@ -1,9 +1,11 @@
 import React from 'react'
+import QuestionForm from './QuestionForm'
 
 const Question = () => {
   return (
-    <div>Question</div>
+    
+    <QuestionForm/>
   )
 }
 
-export default Question
+export default Question;
