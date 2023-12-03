@@ -13,14 +13,14 @@
     background: #ffc107; 
     color: #333; 
     padding: 10px; 
-    border-radius: 8px 8px 0 0; 
+    border-radius: 8px ; 
     text-align: center; 
   }
   
   
   
   .inputGroup {
-    margin: 25px 0px; /* 入力フィールド間の余白 */
+    margin: 25px 0px; 
   }
   
   input,

@@ -4,7 +4,8 @@ import './Navbar.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Logout from './Logout';
- 
+
+
 const Navbar = ({setIsAuth}) => {
 const [isOpen, setIsOpen]=useState(false);
 
@@ -12,6 +13,7 @@ const toggleMenu=()=>{
   setIsOpen(!isOpen);
   console.log(isOpen);
 };
+
 
   return (
     <header className="Home-header">

@@ -62,6 +62,36 @@
     margin: 40px;
     border-radius: 25px;
   }
+  .image1 {
+    background-image:url("../img/concept.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 50vw; 
+    max-height: 300px; 
+    object-fit: cover;
+    margin: 40px;
+    border-radius: 25px;
+  }
+   .image2 {
+    background-image:url("../img/Question.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 50vw; 
+    max-height: 300px; 
+    object-fit: cover;
+    margin: 40px;
+    border-radius: 25px;
+  }
+  .image3 {
+    background-image:url("../img/Project.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 50vw; 
+    max-height: 300px; 
+    object-fit: cover;
+    margin: 40px;
+    border-radius: 25px;
+  }
 
   .text {
     width: 50%;
@@ -72,9 +102,8 @@
  
 
   .text p {
-    font-size: 1em;
+    font-size: 15px;
 
 
   }
-
   

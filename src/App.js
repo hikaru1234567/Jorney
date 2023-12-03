@@ -1,13 +1,15 @@
 import './App.css';
-import Home from './component/Home'; 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
+import Home from './component/Home'; 
 import Work from './component/Work';
 import Question from './component/Question';
 import Project from './component/Project';
 import Profile from './component/Profile';
 import Navbar from './component/Navbar';
-import { useState } from 'react';
 import Login from './component/Login';
+import QuestionForm from './component/QuestionForm';
+import UserCreateForm from './component/UserCreateForm';
 
 function App() {
   const [isAuth, setIsAuth]=useState(false);
@@ -22,6 +24,8 @@ function App() {
     <Route path="/Question" element={<Question />} />
     <Route path="/Project" element={<Project />} />
     <Route path="/Profile" element={<Profile />} />
+    <Route path="/question-form" element={<QuestionForm />} />
+    <Route path="/UserCreateForm" element={<UserCreateForm />} />
   </Routes>
 </BrowserRouter>) :
 

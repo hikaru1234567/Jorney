@@ -1,11 +1,20 @@
 import React, { useState } from 'react';
 import { db } from '../firebase';
 import { collection, addDoc } from 'firebase/firestore';
+import { useNavigate } from 'react-router-dom';
 import './QuestionForm.css';
 
+
+
 const QuestionForm = () => {
+  
+  const navigate=useNavigate();
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
+  const [result, setContentResult] = useState('unsolved');
+
+ 
+
 
   const handleSubmit = async (e) => {
     e.preventDefault(); 
@@ -13,14 +22,18 @@ const QuestionForm = () => {
       await addDoc(collection(db, "questions"), {
         title: title,
         content: content,
-        createdAt: new Date()
+        createdAt: new Date(),
+        result: result
+
+        
       });
       setTitle(''); 
       setContent(''); 
+      setContentResult('');
     } catch (error) {
       console.error("Error adding document: ", error);
     }
-    
+    navigate('/Question');
   };
 
   return (
